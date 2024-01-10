@@ -1,0 +1,21 @@
+{
+  "name": "crdt",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "date-fns": "^3.2.0",
+    "merkletreejs": "^0.3.11",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "bun-types": "latest",
+    "vitest": "^1.1.3"
+  }
+}
